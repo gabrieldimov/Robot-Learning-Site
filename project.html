@@ -1,0 +1,439 @@
+<!-- Em html, utilizei IA para a estruturação do código, e para a criação de classes, 
+para facilitar a estilização. O código é semântico e organizado, com seções claras para cada parte do site. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>Robot Learning Site</title>
+</head>
+
+<body>
+
+  <!-- MENU -->
+  <header>
+  <!-- O checkbox controla se o menu está aberto ou fechado -->
+  <input type="checkbox" id="menu-toggle" style="display: none;">
+  
+  <!-- O label é o ícone das 3 barrinhas (hambúrguer) -->
+  <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+  <ul class="navbar">
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#courses">OUR COURSES</a></li>
+    <li><a href="#how-it-works">HOW IT WORKS</a></li>
+    <li><a href="#contact">CONTACT US</a></li>
+  </ul>
+</header>
+
+  <!-- WHATSAPP -->
+  <div class="whatsapp">
+    <!--O target serve para dizer ao navegador onde abrir um link ou conteúdo.-->
+    <li><a href="https://wa.me/5511999999999" target="_blank">
+        <img src="./asset for final project/whatsapp@3x.png" alt="WhatsApp">
+      </a></li>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <!-- ADICIONEI HERO-CONTAINER -->
+    <div class="hero-container">
+
+      <div class="hero-image">
+        <img src="./asset for final project/Illustration@3x.png" alt="">
+      </div>
+
+      <div class="hero-text">
+        <h1>DEVELOP AND BUILD MY FIRST ROBOT</h1>
+        <p>
+          Learn robotics and programming in a simple and fun way.
+        </p>
+
+        <!-- ADICIONEI HERO-BUTTONS -->
+        <div class="hero-buttons">
+
+          <!-- ADICIONEI CLASSES -->
+          <button class="btn-primary">All courses</button>
+
+          <button class="btn-secondary">Show me more</button>
+
+        </div>
+
+      </div>
+      
+    </div>
+
+  </section>
+
+  <!-- STUDY TRACKS -->
+  <section id="study" class="study-section">
+
+    <h2 class="study-title">OUR STUDY TRACKS</h2>
+
+    <div class="study-line"></div>
+
+    <div class="study-grid">
+
+      <div class="study-card">
+        <img src="./asset for final project/Icon 1.png" alt="">
+        <h3>VISION</h3>
+        <p>Learn and create new ideas.</p>
+      </div>
+
+      <div class="study-card">
+        <img src="./asset for final project/Icon 2.png" alt="">
+        <h3>MISSION</h3>
+        <p>Help students become creators.</p>
+      </div>
+
+      <div class="study-card">
+        <img src="./asset for final project/Icon 3.png" alt="">
+        <h3>CREATE</h3>
+        <p>Build robots and improve skills.</p>
+      </div>
+
+      <div class="study-card">
+        <img src="./asset for final project/Icon 4.png" alt="">
+        <h3>SUCCESS</h3>
+        <p>Grow your future with technology.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ROBOTS -->
+  <section class="robots-section">
+
+    <h2 class="robots-title">OUR ROBOTS</h2>
+
+    <div class="robots-line"></div>
+
+    <div class="robots-grid">
+
+      <div class="robot-card">
+        <img src="./asset for final project/234.png" alt="">
+      </div>
+
+      <div class="robot-card">
+        <img src="./asset for final project/3750_3.png" alt="">
+      </div>
+
+      <div class="robot-card">
+        <img src="./asset for final project/562137-PL0JE0-278.png" alt="">
+      </div>
+
+    </div>
+  </section>
+
+<!-- HOW IT WORKS -->
+  <section id="how-it-works" class="works-section">
+
+    <h2 class="works-title">
+        HOW IT WORKS
+    </h2>
+
+    <div class="works-line"></div>
+
+    <div class="works-grid">
+
+      <div class="work-card">
+
+        <div class="work-number">1</div>
+
+        <div class="work-icon">
+          <img src="./asset for final project/iconp1.png" alt="">
+        </div>
+
+        <div class="work-text">
+          <p>Order course online</p>
+        </div>
+
+      </div>
+
+      <div class="work-card">
+
+        <div class="work-number">2</div>
+
+        <div class="work-icon">
+          <img src="./asset for final project/iconp2.png" alt="">
+        </div>
+
+        <div class="work-text">
+          <p>Begin to learn and practice</p>
+        </div>
+
+      </div>
+
+      <div class="work-card">
+
+        <div class="work-number">3</div>
+
+        <div class="work-icon">
+          <img src="./asset for final project/iconp3.png" alt="">
+        </div>
+
+        <div class="work-text">
+          <p>Get a package with robot</p>
+        </div>
+
+      </div>
+
+      <div class="work-card">
+
+        <div class="work-number">4</div>
+
+        <div class="work-icon">
+          <img src="./asset for final project/iconp4.png" alt="">
+        </div>
+
+        <div class="work-text">
+          <p>Assemble and program robot</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LEARNING SECTION -->
+  <section id="learning" class="learning-section">
+
+    <div class="learning-container">
+
+      <!-- IMAGE -->
+      <div class="learning-image">
+        <img src="./asset for final project/illustrations web@3x.png" alt="">
+      </div>
+
+      <!-- TEXT -->
+      <div class="learning-content">
+
+        <h2>
+          What will you learn and improve while developing our robots?
+        </h2>
+
+        <div class="learning-grid">
+
+          <div class="learning-item">
+            <img src="./asset for final project/input icon@3x.png" alt="">
+            <p>Input output in programming language</p>
+          </div>
+
+          <div class="learning-item">
+            <img src="./asset for final project/input icon@3x.png" alt="">
+            <p>Input output in programming language</p>
+          </div>
+
+          <div class="learning-item">
+            <img src="./asset for final project/if icon@3x.png" alt="">
+            <p>Terms of programming language</p>
+          </div>
+
+          <div class="learning-item">
+            <img src="./asset for final project/if icon@3x.png" alt="">
+            <p>Terms of programming language</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="recommended">
+
+    <h1>RECOMMENDED</h1>
+    <div class="line"></div>
+
+    <div class="cards">
+
+      <div class="card">
+        <span class="quote">❝</span>
+
+        <h3>robot building course</h3>
+
+        <p>
+          Allow each and every person to learn through creation,
+          Thinking and developing personal ability. Allow each and every
+          person to learn through creation, Thinking and developing
+          personal ability
+        </p>
+
+        <div class="author">
+          ✳ Uzi Uzieli
+          <span>Software Engineer</span>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <span class="quote">❝</span>
+
+        <h3>Robot building course</h3>
+
+        <p>
+          Allow each and every person to learn through creation,
+          Thinking and developing personal ability. Allow each and every
+          person to learn through creation, Thinking and developing
+          personal ability
+        </p>
+
+        <div class="author">
+          ✳ Uzi Uzieli
+          <span>Software Engineer</span>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <span class="quote">❝</span>
+
+        <h3>Robot building course</h3>
+
+        <p>
+          Allow each and every person to learn through creation,
+          Thinking and developing personal ability. Allow each and every
+          person to learn through creation, Thinking and developing
+          personal ability
+        </p>
+
+        <div class="author">
+          ✳ Uzi Uzieli
+          <span>Software Engineer</span>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+ <!-- PRICING SECTION -->
+  <section id="pricing" class="pricing">
+
+    <h1>START LEARNING AND DEVELOPING ROBOTS TODAY</h1>
+    <div class="line"></div>
+
+    <div class="plans">
+
+      <div class="plan">
+
+        <h2>Monthly for the entire site</h2>
+
+        <div class="price">
+          $free <span>/ month</span>
+        </div>
+
+        <ul>
+          <li>Access to all courses</li>
+          <li>Personal support</li>
+          <li>Feedback on the works</li>
+        </ul>
+
+        <button>Sign up now</button>
+
+      </div>
+
+
+      <div class="plan featured">
+
+        <div class="tag">recommended</div>
+
+        <h2>Monthly for the entire site</h2>
+
+        <div class="price">
+          $free <span>/ month</span>
+        </div>
+
+        <ul>
+          <li>Access to all courses</li>
+          <li>Personal support</li>
+          <li>Feedback on the works</li>
+        </ul>
+
+        <button>Sign up now</button>
+
+      </div>
+
+
+      <div class="plan">
+
+        <h2>Monthly for the entire site</h2>
+
+        <div class="price">
+          $free <span>/ month</span>
+        </div>
+
+        <ul>
+          <li>Access to all courses</li>
+          <li>Personal support</li>
+          <li>Feedback on the works</li>
+        </ul>
+
+        <button>Sign up now</button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="contact" class="contact">
+
+    <!-- Formulário -->
+    <div class="contact-form">
+
+      <h1>Contact Us</h1>
+
+      <form>
+        <div class="input-group">
+          <input type="text" placeholder="first name">
+          <input type="text" placeholder="last name">
+          <input type="text" placeholder="phone">
+        </div>
+
+       <!--<textarea É a tag que cria uma área onde o usuário pode digitar várias linhas.
+       O placeholder é um texto de ajuda que aparece dentro da caixa.-->
+        <textarea placeholder="message"></textarea>
+
+      </form>
+
+      <button type="submit">send</button>
+
+    </div>
+
+    <!-- Imagem -->
+    <div class="contact-image">
+      <img src="./asset for final project/coding_ (4).png" alt="contact image">
+    </div>
+
+  </section>
+
+  <footer>
+
+    <ul class="footer-menu">
+      <li><a href="#">Home page</a></li>
+      <li><a href="#">Our robots</a></li>
+      <li><a href="#">How It Works</a></li>
+      <li><a href="#">Contact us</a></li>
+    </ul>
+
+    <div class="social-icons">
+      <img src="./asset for final project/twitter.png" alt="logo">
+      <img src="./asset for final project/youtube.png" alt="logo">
+      <img src="./asset for final project/facebook.png" alt="logo">
+    </div>
+
+    <p>© All rights reserved</p>
+
+  </footer>
+
+</body>
+
+</html>
